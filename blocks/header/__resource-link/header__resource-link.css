@@ -1,0 +1,27 @@
+.header__resource-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.21;
+  transition: opacity .5s;
+  padding: 9px 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.header__resource-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .header__resource-link {
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 7px 14px;
+  }
+}
+
