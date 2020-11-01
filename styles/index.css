@@ -1,2 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url("../fonts/inter.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__resources/header__resources.css");
+@import url("../blocks/header/__resource-link/header__resource-link.css");
+@import url("../blocks/header/__resource/header__resource.css");
+@import url("../blocks/header/__button/header__button.css");
+@import url("../blocks/header/__button/_invisible/header__button_invisible.css");
