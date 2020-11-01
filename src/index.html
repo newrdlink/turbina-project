@@ -1,15 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Турбина</title>
-    <link rel="stylesheet" href="../styles/index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Турбина</title>
+  <link rel="stylesheet" href="../styles/index.css"/>
 </head>
-
 <body class="root">
-    <script type="module" src="./index.js"></script>
+<header class="header">
+  <div class="logo"></div>
+  <div class="header__banner"></div>
+  <ul class="header__resources">
+    <li class="header__resource"></li>
+    <li class="header__resource"></li>
+    <li class="header__resource"></li>
+    <li class="header__resource"></li>
+  </ul>
+</header>
+<main class="main">
+  <div class="media">
+    <div class="media__player"></div>
+    <p class="media__lyrics"></p>
+    <ul class="media__tracks"></ul>
+    <button class="media__toggle-button"></button>
+  </div>
+  <div class="intro">
+    <article class="intro__about">
+      <h2 class="intro__about-title"></h2>
+      <p class="intro__about-text"></p>
+      <p class="intro__about-text"></p>
+    </article>
+    <article class="intro__how-it-works">
+      <h2 class="intro__how-it-works-title"></h2>
+      <p class="intro__how-it-works-text"></p>
+    </article>
+    <article class="intro__all-theses">
+      <h2 class="intro__all-theses-title"></h2>
+      <ul class="intro__theses">
+        <li class="intro__thesis"></li>
+        <li class="intro__thesis"></li>
+        <li class="intro__thesis"></li>
+        <li class="intro__thesis"></li>
+      </ul>
+    </article>
+  </div>
+  <form class="form">
+    <h2 class="form__header"></h2>
+    <fieldset class="form__fields">
+      <label class="form__field-name" for="form-field-name">
+        <input
+            class="form__input-name"
+            type="text"
+            id="form-field-name"
+            placeholder=""
+            name="name"
+            minlength=""
+            maxlength=""
+            required
+        />
+        <span class="form__field-error"></span>
+      </label>
+      <label class="form__field-mail" for="form-field-mail">
+        <input
+            class="form__input-mail"
+            type="email"
+            id="form-field-mail"
+            placeholder=""
+            name="mail"
+            minlength=""
+            maxlength=""
+            required
+        />
+        <span class="form__field-error"></span>
+      </label>
+      <label class="form__field-tel" for="form-field-tel">
+        <input
+            class="form__input-tel"
+            type="tel"
+            id="form-field-tel"
+            placeholder=""
+            name="tel"
+            minlength=""
+            maxlength=""
+            required
+        />
+        <span class="form__field-error"></span>
+      </label>
+      <label class="form__field-lyrics" for="form-field-lyrics">
+        <input
+            class="form__input-lyrics"
+            type="text"
+            id="form-field-lyrics"
+            placeholder=""
+            name="lyrics"
+            minlength=""
+            maxlength=""
+            required
+        />
+        <span class="form__field-error"></span>
+      </label>
+      <label class="form__field-accept" for="form-field-accept">
+        <input
+            class="form__input-accept"
+            type="checkbox"
+            id="form-field-accept"
+            name="accept"
+            value=""
+        >
+        <span class="form__field-error"></span>
+      </label>
+      <p class="form__field-accept-text"></p>
+      <button type="submit" class="form__submit-button"></button>
+    </fieldset>
+  </form>
+</main>
+<footer class="footer"></footer>
+<script type="module" src="./index.js"></script>
 </body>
-
 </html>
