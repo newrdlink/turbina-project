@@ -1,0 +1,26 @@
+.page {
+  background-image: url("../../images/IMG_1.png");
+  /*background-repeat: no-repeat;*/
+  /*height: 100vh;*/
+  /*width: 100vw;*/
+  background-repeat: repeat-y;
+  background-size: 100%;
+
+  /*background-size: cover;*/
+  /*height: 4000px;*/
+  background-attachment:fixed;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  /*background: url("../../images/IMG_1.png") bottom left;*/
+  /*height: 100vh;*/
+  /*left: 0;*/
+  /*opacity: 1;*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*overflow: auto;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+}
