@@ -1,0 +1,8 @@
+@import url("./__author/footer__author.css");
+
+.footer {
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 35px 20px;
+}

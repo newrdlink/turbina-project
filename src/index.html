@@ -33,42 +33,64 @@
           </li>
         </ul>
       </nav>
-    </header>
-    <main class="main">
-      <section>Турбина</section>
+      <section class="banner">
+        <h1 class="banner__title"><img class="banner__img" src="../images/turbina.svg" alt=""></h1>
+      </section>
       <section class="media">
         <div class="media__player"></div>
         <p class="media__lyrics"></p>
         <ul class="media__tracks"></ul>
         <button class="media__toggle-button"></button>
       </section>
-      <section>
-        <article class="intro__about">
-          <h2 class="intro__about-title"></h2>
-          <p class="intro__about-text"></p>
-          <p class="intro__about-text"></p>
+    </header>
+    <main class="main">
+      <section class="content">
+        <article class="article">
+          <h2 class="article__title">О проекте</h2>
+          <p class="article__paragraph">Мы знаем, что наши дети постоянно существуют в режиме
+            непрекращающегося творческого процесса. Мы видим это, когда ребёнок что-то напевает,
+            когда он бесконечно рисует, когда придумывает истории, когда разговаривает с
+            едой и игрушками — дети постоянно включены и что-то изобретают. Родители часто
+            недооценивают это спонтанное творчество ребёнка. Это не плохо, просто мы
+            привыкаем к этому. Давайте попробуем внимательнее присмотреться к нашим детям.
+          </p>
+          <p class="article__paragraph  article__paragraph_position"> Мы запускаем проект «ТУРБИНА», который открывает
+            работу
+            настоящего музыкального лейбла на базе «Маршака». В рамках «ТУРБИНЫ» лучшие
+            современные инди-музыканты пишут свои песни на стихи, написанные детьми.
+            Здесь важно — мы не заставляем наших детей садиться и писать поэзию, мы говорим о том,
+            что родителям стоит быть более внимательными и чуткими к своим детям. Именно так мы
+            сможем получить тексты, которые перестанут быть детскими, не будут осмыслены как
+            взрослые — поэзия, которая сокращает дистанцию между взрослостью и детством,
+            где спонтанное детское творчество и бессознательное, замеченное родителем, становится
+            общественным культурным достоянием.
+          </p>
         </article>
-      </section>
-      <section>
-        <article class="intro__how-it-works">
-          <h2 class="intro__how-it-works-title"></h2>
-          <p class="intro__how-it-works-text"></p>
+        <article class="article">
+          <h2 class="article__title">Как это работает</h2>
+          <p class="article__paragraph">Вы можете прислать нам тексты, родившиеся у ваших детей,
+            которые вы записали и считаете, что это сильное высказывание. Мы собираем пул таких
+            текстов и передаём их музыкантам. Артисты создают музыку на эти стихи. Мы продюсируем
+            выпуск трека, возможно съёмки клипа и так далее. Мы всегда указываем автора стихотворений
+            внутри релиза: Хадн Дадн feat. Варя Карпова и Федя Быстров — Контур.</p>
         </article>
-      </section>
-      <section>
-        <article class="intro__all-theses">
-          <h2 class="intro__all-theses-title"></h2>
-          <ul class="intro__theses">
-            <li class="intro__thesis"></li>
-            <li class="intro__thesis"></li>
-            <li class="intro__thesis"></li>
-            <li class="intro__thesis"></li>
+        <article class="article">
+          <h2 class="article__title">Тезисы</h2>
+          <ul class="article__theses article__paragraph">
+            <li class="article__thesis">Дети никогда не прекращают творить и круто стараться быть на них похожими в этом
+            </li>
+            <li class="article__thesis">Детское бессознательное помогает родителям понять, что происходит внутри семьи
+            </li>
+            <li class="article__thesis">Не существует детской и взрослой поэзии. Существует мысль и чувство,
+              зафиксированное в ней
+            </li>
+            <li class="article__thesis">Дети получают невероятное удовольствие и мотивацию от того, что их творчество
+              востребовано сверстниками и взрослыми.
+            </li>
           </ul>
         </article>
-      </section>
-      <section>
-        <form class="form">
-          <h2 class="form__header"></h2>
+        <form class="form article">
+          <h2 class="form__header article__title">Форма</h2>
           <label class="form__field-name" for="form-field-name">
             <input class="form__input-name" type="text" id="form-field-name" placeholder="" name="name" minlength=""
               maxlength="" required />
@@ -98,7 +120,9 @@
         </form>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <p class="footer__author">&copy;2020. «ТУРБИНА»</p>
+    </footer>
   </div>
   <script type="module" src="./index.js"></script>
 </body>
