@@ -1,4 +1,5 @@
 .banner__img {
-  width: 861px;
-  height: 272px;
+  display: inline-block;
+  width: 100%;
+  max-width: 861px;
 }
