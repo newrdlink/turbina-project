@@ -1,4 +1,4 @@
-.header__resource-link {
+.menu__resource-link {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -13,12 +13,12 @@
   border-radius: 30px;
 }
 
-.header__resource-link:hover {
+.menu__resource-link:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
-  .header__resource-link {
+  .menu__resource-link {
     font-size: 12px;
     line-height: 1.25;
     padding: 7px 14px;

@@ -1,0 +1,10 @@
+.media {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(-100%);
+  width: 100%;
+  /* для примера */
+  height: 50px;
+  background-color: teal;
+}
