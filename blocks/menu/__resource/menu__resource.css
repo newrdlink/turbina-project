@@ -1,17 +1,17 @@
-.header__resource {
+.menu__resource {
   margin-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
-  .header__resource {
+  .menu__resource {
     margin-bottom: 6px;
   }
 }
 
-.header__resource:first-of-type {
+.menu__resource:first-of-type {
   margin-bottom: 0;
 }
 
-.header__resource:last-of-type {
+.menu__resource:last-of-type {
   margin-bottom: 0;
 }
