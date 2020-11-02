@@ -1,20 +1,10 @@
 .page {
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  /*width: 100%;*/
-  /*min-height: 100vh;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  padding: 0;
-  margin: 0;
-  background-image: url("../../images/background.png");
-  /*background-repeat: repeat-y;*/
-  background-size: 100%;
-  background-attachment:fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
-
 }

@@ -1,0 +1,13 @@
+.content {
+  width: 1260px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 4px 0 86px 0;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .content {
+    width: 98vw;
+  }
+}
