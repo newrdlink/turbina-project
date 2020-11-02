@@ -19,3 +19,6 @@
 @import url("../blocks/article/__title/article__title.css");
 @import url("../blocks/article/__paragraph/article__paragraph.css");
 @import url("../blocks/article/__paragraph/_position/article__paragraph_position.css");
+@import url("../blocks/article/__theses/article__theses.css");
+@import url("../blocks/article/__thesis/article__thesis.css");
+@import url("../blocks/footer/footer.css");

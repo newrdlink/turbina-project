@@ -1,0 +1,8 @@
+.article__thesis {
+  list-style-type: '\2012\a0';
+  margin-bottom: 20px;
+}
+
+.article__thesis:last-child {
+  margin-bottom: 100px;
+}
