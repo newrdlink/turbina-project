@@ -7,4 +7,15 @@
   background-size: cover;
   background-attachment:fixed;
   position: relative;
+  --left-indent: 51px;
+  --smartphone-width-l: 350px;
+  --smartphone-width-s: 270px;
+}
+
+
+
+@media screen and (max-width: 740px) {
+  .root {
+    --left-indent: 0;
+  }
 }
