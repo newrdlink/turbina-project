@@ -1,0 +1,14 @@
+.media__title-track {
+  margin: 0;
+  grid-column: 1;
+  grid-row: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
