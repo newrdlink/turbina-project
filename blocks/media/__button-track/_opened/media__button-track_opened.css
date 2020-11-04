@@ -1,0 +1,5 @@
+.media__button-track_opened {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 3s linear;
+}
