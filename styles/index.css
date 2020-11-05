@@ -23,5 +23,25 @@
 @import url("../blocks/article/__theses/article__theses.css");
 @import url("../blocks/article/__thesis/article__thesis.css");
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__author/footer__author.css");
+@import url("../blocks/footer/__author-link/footer__author-link.css");
 @import url("../blocks/form/form.css");
+@import url("../blocks/form/__field-name/form__field-name.css");
+@import url("../blocks/form/__field-lyrics/form__field-lyrics.css");
+@import url("../blocks/form/__input/form__input.css");
+@import url("../blocks/form/__input/_position/form__input_position_lyrics.css");
+@import url("../blocks/form/__input/_position/form__input_position_mail.css");
+@import url("../blocks/form/__input/_position/form__input_position_tel.css");
+@import url("../blocks/form/__submit-button/form__submit-button.css");
+@import url("../blocks/form/__input-text/form__input-text.css");
+@import url("../blocks/form/__input-link/form__input-link.css");
+
+
+
+
+
+
+@import url("../blocks/form/__field-accept/form__field-accept.css");
+
+
 

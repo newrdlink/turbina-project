@@ -7,10 +7,17 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+  .article__title {
+    margin: 85px 0 0 var(--left-indent);
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .article__title {
     font-size: 42px;
-    margin: 78px 0 0 var(--left-indent);
+    margin: 79px 0 0 var(--left-indent);
   }
 }
 
@@ -20,6 +27,7 @@
   .article__title {
     font-size: 32px;
     line-height: 39px;
+    margin: 59px 0 0 var(--left-indent);
   }
 }
 
