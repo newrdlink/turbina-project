@@ -3,6 +3,26 @@
   color: #fff;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  margin-bottom: 10px;
+  font-size: 20px;
   line-height: 27px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
+@media screen and (max-width: 1030px) {
+  .media__track {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .media__track {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+}
+ 
