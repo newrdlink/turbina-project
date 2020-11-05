@@ -8,6 +8,7 @@
 @import url(../media/__content/media__content.css);
 @import url(../media/__content/_opened/media__content_opened.css);
 @import url(../media/__track/media__track.css);
+@import url(../media/__track/_type/media__track_type_release.css);
 
 .media {
   position: absolute;
@@ -20,5 +21,5 @@
   /* background-color: teal; */
   display: grid;
   grid-template-columns: 1fr min-content min-content;
-  grid-template-rows: min-content min-content min-content;
+  grid-template-rows: min-content min-content min-content min-content;
 }

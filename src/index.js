@@ -9,6 +9,7 @@ const mediaContentContainer = document.querySelector('.media__content');
 const toggleOpenTracks = () => {
   mediaContentContainer.classList.toggle('media__content_opened');
   buttonTrack.classList.toggle('media__button-track_opened');
+  buttonOpenTracks.classList.toggle('media__button-open_active');
 }
 // слущатель для кнопки открытия треков
 buttonOpenTracks.addEventListener('click', toggleOpenTracks);

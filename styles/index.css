@@ -13,6 +13,8 @@
 @import url("../blocks/banner/__title/banner__title.css");
 @import url("../blocks/banner/__img/banner__img.css");
 @import url("../blocks/media/media.css");
+@import url(../blocks/media/__button-open/_active/media__button-open_active.css);
+@import url(../blocks/media/__track/_type/media__track_type_text-song.css);
 @import url("../blocks/main/main.css");
 @import url("../blocks/section-title/section-title.css");
 @import url("../blocks/section-subtitle/section-subtitle.css");
