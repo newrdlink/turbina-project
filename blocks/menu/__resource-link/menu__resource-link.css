@@ -22,6 +22,9 @@
     font-size: 12px;
     line-height: 1.25;
     padding: 7px 14px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s .5s, opacity .25s linear;
   }
 }
 
