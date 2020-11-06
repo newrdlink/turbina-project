@@ -28,40 +28,9 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .media__content {
     padding: 0 15px 0 20px;
     grid-column: 1/4;
   }
 }
-
-/* .media__content::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-} */
-/*transition: visibility 0.3s, opacity 0.3s linear;
-.popup_opened {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.3s linear;
-}
-*/
-/*тестовый вариант, работает в хроме*/
-/* .media__content:hover {
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-	-moz-overflow-scrolling: touch;
-	-ms-overflow-scrolling: touch;
-	-o-overflow-scrolling: touch;
-	overflow-scrolling: touch;
-}
-.media__content::-webkit-scrollbar{
-  -webkit-appearance: none;
-	width: 7px;
-}
-.media__content::-webkit-scrollbar-thumb {
-	border-radius: 2px;
-	background-color: rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5);
-} */
-/**/

@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .media__track_type_release {
     font-size: 14px;
     line-height: 19px;

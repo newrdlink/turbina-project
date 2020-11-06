@@ -14,7 +14,6 @@
   border-radius: 30px;
   white-space: nowrap;
   visibility: hidden;
-  /* transition: opacity .2s ease-in-out; */
   transition: .3s ease-in-out;
   transition-property: max-height, opacity;
 }
@@ -28,7 +27,7 @@
   outline: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .media__button-track {
     padding: 0 15px 0 20px;
     grid-column: 1/4;

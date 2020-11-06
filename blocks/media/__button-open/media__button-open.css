@@ -21,8 +21,7 @@
   cursor: pointer;
 }
 
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .media__button-open {
     height: 16px;
     width: 16px;
@@ -31,21 +30,3 @@
     align-self: flex-start;
   }
 }
-
-
-/*пример для возможного вращения*/
-/* .media__button-open::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: url(../../../images/Subtract.svg) no-repeat center;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-} */
-/**/
