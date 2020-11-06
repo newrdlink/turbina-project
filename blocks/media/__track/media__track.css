@@ -18,11 +18,10 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .media__track {
     font-size: 14px;
     line-height: 19px;
     margin-bottom: 10px;
   }
 }
- 
