@@ -18,15 +18,15 @@ const toggleOpenTracks = () => {
 }
 //функция открытия стримингов
 const addMenu = () => {
-  buttonOpenMenu.classList.add('menu__button_invisible');
-  buttonCloseMenu.classList.remove('menu__button_invisible');
+  buttonOpenMenu.parentNode.classList.add('menu__resource_invisible');
+  buttonCloseMenu.parentNode.classList.remove('menu__resource_invisible');
   document.querySelectorAll('.menu__resource-link').forEach(el => el.classList.add('menu__resource-link_visible'));
 }
 
 //функция закрытия стримингов
 const removeMenu = () => {
-  buttonOpenMenu.classList.remove('menu__button_invisible');
-  buttonCloseMenu.classList.add('menu__button_invisible');
+  buttonOpenMenu.parentNode.classList.remove('menu__resource_invisible');
+  buttonCloseMenu.parentNode.classList.add('menu__resource_invisible');
   document.querySelectorAll('.menu__resource-link').forEach(el => el.classList.remove('menu__resource-link_visible'));
 }
 
@@ -34,5 +34,5 @@ const removeMenu = () => {
 buttonOpenTracks.addEventListener('click', toggleOpenTracks);
 //слушатель для кнопки открытия стримингов
 buttonOpenMenu.addEventListener('click', addMenu);
-//слушатель для кнопки открытия стримингов
+//слушатель для кнопки закрытия стримингов
 buttonCloseMenu.addEventListener('click', removeMenu);
